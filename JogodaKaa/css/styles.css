@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(197, 127, 127);
+}
+
+#game-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#gameCanvas {
+    border: 1px sollid rgb(255, 255, 255);
+    background-color: #ffffff;
+}

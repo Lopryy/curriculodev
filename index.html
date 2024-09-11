@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Currículo Lorena</title>
+</head>
+<body class="conteiner">
+    <div class="linha1">
+        <span>LORENA B. MORAIS</span>
+        <li class="menu" >
+            <ul>
+               <a href="/">Home</a> 
+            </ul>
+            <ul>
+                <a href="./sobre.html">Sobre</a>
+            </ul>
+            <ul class="itemTitle" onmouseenter="addClass('showSubItem', 'boxSubItem')">
+               <li>  Projetos </li>
+               <ul
+                class="boxSubItem"
+                id="boxSubItem"
+                onmouseleave="removeClass('showSubItem', 'boxSubItem')"
+               >
+                    <li class="subItem">
+                        <a href="./JogodaKaa/JogodaKaa.html">Jogo da Kaa</a>
+                    </li>
+                    <li class="subItem">
+                        <a href="./src/scoutPlat/scoutPlat.html">escoteiro plataforma</a>
+                    </li>
+                </ul>
+            </ul>
+        </li>
+    </div>
+    <div class="linha2">
+        <div class="boxImgProfile">
+            <img src="./fotos/foto.jpg" alt="">
+        </div>
+        <div class="presentation">
+            <h1>Oi</h1>
+            <p>
+                Eu tenho 10 anos , estudo na escola CEA e na escola de inglês Number One e estou realizando o curso de progamação basíca.
+            </p>
+        </div>
+        <div class="boxImgFoto">
+            <img src="./fotos/Coelho1.png" alt="">
+        </div>              
+    </div>
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>
