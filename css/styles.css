@@ -89,6 +89,9 @@ body{
     text-decoration: none;
     list-style: none; 
 }
+.subItem{
+    margin:10px 0px;
+}
 .subItem a{
     color:rgb(197, 127, 127);
 }
@@ -97,9 +100,9 @@ body{
     top: 70px;
     right: 20px;
     z-index: 1;
-    background-color:rgb(255, 255, 255); 
+    background-color:rgba(255, 255, 255,0.8); 
     width: 120px;
-    text-align: center;
+    text-align:left;
     display: none;
 }
 .showSubItem{
