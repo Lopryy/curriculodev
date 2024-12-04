@@ -11,14 +11,25 @@
 body{
     background-color: rgb(197, 127, 127);
 }
+.iconmenu{
+    display: none;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position:absolute;
+    top: 10px;
+    right: 40px;
+}
 
 .linha1, .linha2{
     border: 2px solid #000;
     width: 100%;
+    position: relative;
 }
 .conteiner{
     display: flex;
     flex-direction: column;
+    min-width: 350px;
 }
 .linha1, .linha2{
     display: flex;
@@ -107,4 +118,43 @@ body{
 }
 .showSubItem{
     display: block;
+}
+.menuActive{
+    display:flex !important;
+}
+.menu.menuActive{
+    position: fixed;
+    background-color: rgb(197, 127, 127);   
+}
+
+.menuDiscable{
+    display:none !important;
+}
+
+@media (max-width: 600px ) {
+    .iconmenu{
+        display: block;
+    }
+    .menu{
+        display:none;
+    }
+    .linha1 span{
+        width: 100%;
+    }
+    .linha2{
+        flex-direction: column;
+    }
+    .boxImgProfile{
+        width: 100%;
+    }
+    .presentation{
+        width:96% ;
+        padding-left: 5px;
+    }
+    .presentation p{
+        width: 100%;
+    }
+    .boxImgFoto{
+        width: 100%;
+    }
 }

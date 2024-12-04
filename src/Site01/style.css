@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    background-color: #fcfcfc;
+    flex-direction:column;
+    justify-content: center;
+    width: 100vw;
+    height: 110vh;
+}
+.boxHead{
+    position:relative;
+    display:flex;
+    border: 2px solid #d30707;
+    flex-direction: row;
+    width: 98%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body{
+    position:relative;
+    display: flex;
+    border: 2px solid  #40cf3b;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
+
+.boxlogo{
+    display:flex;
+    border:2px solid #40e031;
+}
+
+.boxlogo img{
+    width: 100px;
+}
+
+.boxMenu nav{
+    display: none;
+    position: absolute;
+    bottom:-100px;
+    right: 0px;
+    border :2px solid #21aa15;
+    background-color: rgba(92, 94, 86, 0.11)
+
+}
+
+.menuActive{
+    display: block !important;
+    
+}
+
+.boxMenu img{
+    height: 50px
+}
+
+.body img{
+    width:800px ;
+    object-fit: cover;
+}
+
+.absolute{
+    position:absolute;
+    display:flex;
+    top: 100px; 
+    left: 30px;
+    background-color: transparent;
+    width:300px ;
+    height:300px ;
+
+}
